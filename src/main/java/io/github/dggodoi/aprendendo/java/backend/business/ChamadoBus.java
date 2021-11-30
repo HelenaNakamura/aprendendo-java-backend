@@ -19,7 +19,7 @@ import org.hibernate.Transaction;
  * @author aluno
  */
 public class ChamadoBus {
-
+//
     public Long inserir(Chamado chamado) {
         chamado.setDataRegistro(new Date());
         chamado.setStatus(Status.NOVO);
